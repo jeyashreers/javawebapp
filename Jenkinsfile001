@@ -83,7 +83,7 @@ pipeline {
               nexusArtifactUploader artifacts: [
 [
 artifactId: 'SimpleWebApplication', classifier: '', 
-file: '/var/lib/jenkins/workspace/maven/target/SimpleWebApplication.war',
+file: '/var/lib/jenkins/workspace/javawebapp/target/SimpleWebApplication.war',
  type: 'war']
 ], 
 credentialsId: 'nexusrep', 
