@@ -37,7 +37,7 @@ pipeline {
           {
              script
              {
-               def sonarscanner = tool 'SonarScanner'
+               def sonarscanner = tool 'sonar_scanner'
                withSonarQubeEnv('sonarqube') {
                
                     // some block
