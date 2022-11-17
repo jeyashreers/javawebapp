@@ -91,7 +91,7 @@ groupId: 'com.maven.bt',
 nexusUrl: '172.31.1.243:8081', 
 nexusVersion: 'nexus3', 
 protocol: 'http',
- repository: 'http://34.219.26.189:8081/repository/maven-releases/', 
+ repository: 'maven-realeases', 
 version: '9.1.14'
 
             }
